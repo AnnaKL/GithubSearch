@@ -1,0 +1,122 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+<style>
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+    background-image: url('https://camo.githubusercontent.com/5e6eb0b00d714eb5b8ec84254205c61c2a97c68d/687474703a2f2f6f63746f6465782e6769746875622e636f6d2f696d616765732f77616c646f6361742e6a7067');
+    background-size: 100%;
+  }
+
+
+img {
+
+}
+
+.form-horizontal {
+  width: 400px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+input {
+  border: 2px dashed #87CEFA;
+  width: 230px;
+  height:20px;
+  text-align: center;
+}
+
+.btn {
+  color: #87CEFA;
+  padding: 1px 12px;
+  vertical-align: top;
+  border-radius: 0 5px 5px 0;
+  border: 0;
+  font-size: 110%;
+  background-color: Transparent;
+            background-repeat:no-repeat;
+            border: none;
+            cursor:pointer;
+            overflow: hidden;
+}
+
+.list-group {
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+.picture {
+  width: 100px ;
+   -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+        }
+
+.picture:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    font-family:'Indie Flower', cursive;
+}
+
+a{
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.9s;
+    transition-property: transform;
+}
+
+a:hover,
+a:focus {
+    transform: scale(1.9);
+}
+
+
+
+
+
+
+
+

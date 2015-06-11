@@ -52,4 +52,9 @@ describe('when searching for user', function(){
     httpBackend.flush();
     expect(ctrl.searchResult.items).toEqual(items);
   });
+
+  afterEach(function(){
+    httpBackend.verifyNoOutstandingExpectation();
+    httpBackend.verifyNoOutstandingRequest();
+  });
 });
